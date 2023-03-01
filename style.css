@@ -278,5 +278,5 @@ footer{
     color: black;
     padding: 3%;
     font-size: 48px;
-    background-color: #272727;
+    background-color: rgba(27,27,27, 0.4);
 }
