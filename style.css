@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Poiret One', cursive;
+}
+
+/* Комментарий для человека, смотрящего код. Я писал всё это очень довно, 
+    и я сам в шоке от всего мусора что тут есть...  */
+
+body{
+    /* background-color: #121212; */
+    background: url(./materials/particles-particle-flow.gif);
+    background-repeat: repeat-y;
+    background-size: contain;
+}
+
+.element-animation{
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.line2{
+   margin-left: 10%;
+   width: 80%;
+}
+
+.banner{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-image: url(./materials/BG.png);
+    background-size: 120vh;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+.r-c{
+    display: flex;
+    flex-direction: row;
+}
+
+.r-c p{
+    margin-left: 10vw;
+}
+
+.front{
+    font-size: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gbu{
+    font-size: 125px;
+    position: relative;
+    left: 130px;
+    top: 15vh;
+    width: 300px;
+    margin-bottom: 2%;
+}
+
+.r-c{
+    margin-top: 2%;
+    margin-right: 5%;
+}
+
+.lyr{
+    width: 40%;
+    margin-right: 30% ;
+    margin-top: 3%;
+    text-align: center;
+    
+}
+
+.navig{
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+    font-size: 32px;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50vw;
+    margin-bottom: 5%;
+}
+
+.btns button{
+    padding: 5%;
+    border-radius: 10px;
+    border-color: white;
+    background: none;
+    font-size: 1rem;
+}
+
+.nav-r{
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.line1{
+    margin-left: 10%;
+    width: 80%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.me{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.me img{
+    margin-right: 8%;
+}
+
+.me p{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.text{
+    padding: 2%;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+}
+
+/* Uslugi */
+.what-i-can{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 60vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(./materials/гифка.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.what-i-can h1{
+    margin-bottom: 2%;
+}
+
+.why{
+    display: flex;
+    flex-direction: column;
+}
+
+.why h2{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: end;
+    margin-right: 10%;
+}
+
+.cards{
+    gap: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    margin-bottom: 5%;
+}
+
+.card1{
+    width: 29%;
+    height: 50vh;
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(./materials/card1.png);
+    background-size: cover;
+}
+
+.card2{
+    width: 29%;
+    height: 50vh;
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(./materials/card2.png);
+    background-size: cover;
+}
+
+.card1 h1{
+    margin-bottom: 30%;
+}
+
+.card2 h1{
+    margin-bottom: 30%;
+}
+
+.card2 #f{
+    margin-bottom: 10%;
+}
+
+.line3{
+    margin-left: 10%;
+    width: 80%;
+}
+
+.work h1{
+    margin-left: 10%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.works{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+}
+
+.works img{
+    border-radius: 10px;
+}
+
+.works p{
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.line4{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    width: 80%;
+    border-bottom: 1px solid white;
+}
+
+.quest #f{
+    position: absolute;
+    left: 135px;
+
+    font-size: 96px;
+
+}
+
+.quest #s{
+    position: absolute;
+    left: 149px;
+
+    font-size: 128px;
+    margin-top: 5%;
+}
+
+.left{
+    margin-top: 18%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    font-size: 150%;
+}
+
+.links{
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+footer{
+    color: black;
+    padding: 3%;
+    font-size: 48px;
+    background-color: #272727;
+}
