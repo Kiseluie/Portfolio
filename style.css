@@ -23,6 +23,11 @@ body{
     transition: opacity 1s;
 }
 
+.line1{
+   margin-left: 10%;
+   width: 80%;
+}
+
 .line2{
    margin-left: 10%;
    width: 80%;
