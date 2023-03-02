@@ -279,9 +279,12 @@ body{
 }
 
 footer{
-    margin-left: 17%;
     color: black;
     padding: 3%;
     font-size: 48px;
     background-color: rgba(27,27,27, 0.4);
+}
+
+footer p{
+    margin-left: 7%;   
 }
